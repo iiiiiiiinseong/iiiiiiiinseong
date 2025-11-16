@@ -76,36 +76,6 @@
 
 ---
 
-## 🧰 Tech Stack
-
-<p align="center">
-  <!-- Languages & Core -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <br/>
-  <!-- ML / DL -->
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <br/>
-  <!-- Gen AI / RAG -->
-  <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=for-the-badge&logo=graph&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FAISS-005FED?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG-FFB000?style=for-the-badge&logo=openai&logoColor=black"/>
-  <br/>
-  <!-- Backend / Serving -->
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <br/>
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-</p>
-
----
-
 ## 💼 Experience & Activities
 
 ### 🏫 경희대학교 H&T 애널리틱스센터 — 학부연구생 / 인턴 (2023.10 ~ 2024.02)
@@ -123,7 +93,7 @@
 
 ## 🏅 Awards
 
-### 2024 서울시 빅데이터캠퍼스 분석 공모전 — 빅데이터혁신융합대학상(2등)**  
+### 2024 서울시 빅데이터캠퍼스 분석 공모전 — 빅데이터혁신융합대학상(2등)
 - 공모 주제: 서울시 도시문제 해결을 위한 빅데이터 활용 방안 제시
 - 제안 내용: 서울시의 열섬현상 완화를 위한 쿨링로드 우선 설치 입지 분석
 - 분석 및 구현 내용:
