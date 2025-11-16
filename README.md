@@ -104,23 +104,6 @@
 
 ---
 
-## 🧪 Interests
-
-- GenAI & RAG 아키텍처 설계, Multi-Agent Workflow 실험  
-- 호텔·관광·도시 문제 등 도메인 지식이 필요한 데이터 분석
-- LLM 기반 평가 프레임워크(RAG 평가, 프롬프트 회귀 테스트)
-- “모델 성능”뿐 아니라 비즈니스 임팩트를 측정하는 지표 설계
-
----
-
-## 🤝 I’m open to
-
-- 금융, 여행, 관광 등에서의 LLM / RAG 기반 서비스 PoC
-- 데이터 기반 운영 효율화 및 디지털 전환 컨설팅  
-- GenAI, RAG, Multi-Agent 관련 협업 및 스터디
-
----
-
 ## 📬 Contact
 
 - Email: dlstjd6401@naver.com
