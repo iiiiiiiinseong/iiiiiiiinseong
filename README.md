@@ -24,7 +24,6 @@
 - 목적지, 예산, 인원, 여행 스타일만 입력하면 맞춤형 여행 일정을 자동 생성  
 - Master Agent가 여행지·항공·숙소·액티비티 Agent를 오케스트레이션하는 A2A(Agent-to-Agent) 구조 설계  
 - MCP Server를 통해 지도, 리뷰, 가격 등 외부 데이터 소스 실시간 연동  
-- Streamlit UI에서 일정 수정·재생성까지 가능한 대화형 컨시어지 경험 제공  
 - Stack: `Python` · `FastAPI` · `Streamlit` · `LangGraph` · `MCP` · `Docker`
 
 ---
@@ -32,10 +31,8 @@
 ### Finance Agent — 금융 Multi-Agent RAG 시스템 (2025.07 ~ 2025.09)
 > 질문에서 상품 가입까지 끊김 없는 경험을 제공하는 AI 금융 컨시어지
 
-- LangGraph 기반 Modular RAG 아키텍처 설계  
 - GPT Classifier + Router로 질의를 분류하고, FAQ / 상품 비교 / 가입 상담 Agent로 분배  
 - `FAISS` + `BM25`를 조합한 하이브리드 Retrieval 및 메타데이터 필터링으로 검색 품질 향상  
-- `MCP Server`로 상담 내용을 요약하고, 가입 상품 핵심 설명서를 PDF로 자동 생성 및 이메일 발송 
 - `RAGAS`, `RAGChecker`를 활용한 RAG 평가 파이프라인 구축 (예: Faithfulness 85% 수준 달성)  
 - Stack: `Python` · `LangGraph` · `LangChain` · `FAISS` · `OpenAI API` · `Streamlit` · `RAGAS` · `RAGChecker` · `MCP`
 
@@ -49,7 +46,6 @@
 - SBERT + UMAP + HDBSCAN으로 다국어 리뷰 토픽 모델링 파이프라인 구축  
 - GPT-4o-mini 기반 Few-shot Prompting으로 서비스 속성/감성 Multi-Aspect 자동 태깅 시스템 구현  
 - `XGBoost` + `SHAP`으로 속성별 평점 기여도를 정량화, PRCA & AIPA 프레임워크로 Penalty/Reward 민감도 분석 수행  
-- 호텔 등급(3/4/5성)별 Actionable Insight 도출  
 - Stack: `Python` · `SBERT` · `UMAP` · `HDBSCAN` · `XGBoost` · `SHAP` · `OpenAI API` · `Scikit-learn` · `Pandas`
 
 ---
@@ -60,7 +56,6 @@
 - 인구통계(성별, 연령대, 소득, 여행스타일 등) + 방문지(체류시간, 만족도 등) 기반 데이터 모델링  
 - `CatBoost Regressor`로 만족도 예측 모델 구축, Random Search + K-Fold로 성능 튜닝  
 - 예측된 만족도를 활용해 Top-N 관광지 추천 및 `Dijkstra` 기반 경로 최적화 수행  
-- `Folium`으로 지도 위에 최적 동선 시각화  
 - Stack: `Python` · `Pandas` · `Scikit-learn` · `CatBoost` · `Numpy` · `Folium` · `Matplotlib`
 
 ---
@@ -69,9 +64,8 @@
 > 오프라인 카페의 운영 효율화를 위한 데이터 기반 IT 컨설팅 프로젝트 (PM)
 
 - 다수 배달 플랫폼 매출 데이터를 수집하는 크롤러 개발 및 통합 DB 구축  
-- 메뉴 엔지니어링 알고리즘으로 4분면 메뉴 포지셔닝 분석** 및 추천/개선 메뉴 자동 도출  
+- 메뉴 엔지니어링 알고리즘으로 4분면 메뉴 포지셔닝 분석 및 추천/개선 메뉴 자동 도출  
 - 온·오프라인 매출을 통합한 대시보드와 제약조건 기반 근무 스케줄 자동화 시스템 설계  
-- 수작업 대비 70% 업무 시간 단축 효과 달성  
 - Stack: `Python` · `Selenium` · `BeautifulSoup` · `Pandas` · `PuLP`
 
 ---
